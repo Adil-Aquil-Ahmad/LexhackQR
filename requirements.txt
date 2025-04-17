@@ -1,0 +1,5 @@
+Flask==2.2.3
+opencv-python==4.5.5.64
+pyzbar==0.1.8
+pandas==1.4.3
+numpy==1.23.5
