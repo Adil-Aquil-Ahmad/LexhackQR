@@ -89,4 +89,4 @@ def get_scanned_id():
     return jsonify({"scanned_id": scanned_id, "status": scanned_status})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
